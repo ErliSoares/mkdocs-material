@@ -34,9 +34,6 @@
     src="https://img.shields.io/docker/pulls/squidfunk/mkdocs-material" 
     alt="Docker Pulls"
   /></a>
-  <a href="https://squidfunk.github.io/mkdocs-material/insiders/"><img
-    src="https://img.shields.io/static/v1?label=%E2%86%92&message=insiders&color=e91e63"
-  /></a>
 </p>
 
 <p align="center">
@@ -53,12 +50,35 @@
 
 <p align="center">
   <em>
-    A demo is worth a thousand words — check it out at
+    Check out the demo – 
     <a
       href="https://squidfunk.github.io/mkdocs-material/"
     >squidfunk.github.io/mkdocs-material</a>.
   </em>
 </p>
+
+<h2></h2>
+<p>&nbsp;</p>
+<p id="premium-sponsors" align="center"><strong>Special thanks</strong> to our <strong>premium sponsors</strong>:</p>
+<p>&nbsp;</p>
+<p align="center">
+  <a href="https://www.manticoregames.com/" target=_blank><img
+    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/manticoregames.png" height="40"
+  /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://kx.com/" target=_blank><img
+    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/kx.svg" height="40"
+  /></a>&nbsp;&nbsp;
+  <a href="https://hummingbot.io/" target=_blank><img
+    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/hummingbot.png" height="40"
+  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://docs.baslerweb.com/" target=_blank><img
+    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/basler.png" height="40"
+  /></a>&nbsp;&nbsp;
+  <a href="https://cirrus-ci.org/" target=_blank><img
+    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/cirrus-ci.svg" height="40"
+  /></a>
+</p>
+<p>&nbsp;</p>
 
 ## Features
 
@@ -124,24 +144,14 @@ For other installation methods, configuration options, and a demo, visit
 
   [1]: https://squidfunk.github.io/mkdocs-material/
 
-## Premium Sponsors
-
-<p>
-  <a href="https://docs.baslerweb.com/" target=_blank><img
-    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/basler.png" width="155"
-  /></a>
-  <a href="https://cirrus-ci.org/" target=_blank><img
-    src="https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/cirrus-ci.svg" width="155"
-  /></a>
-</p>
-
 ## Trusted by ...
 
 ### ... leading organizations
 
-[Atlassian](https://atlassian-labs.github.io/data-center-helm-charts/),
+[Atlassian](https://atlassian.github.io/data-center-helm-charts/),
 [AWS](https://aws.github.io/copilot-cli/),
 [Binance](https://docs.binance.org/),
+[Bloomberg](https://bloomberg.github.io/selekt/),
 [CERN](http://abpcomputing.web.cern.ch/),
 [Datadog](https://datadoghq.dev/integrations-core/),
 [Google](https://google.github.io/accompanist/),
@@ -158,6 +168,7 @@ For other installation methods, configuration options, and a demo, visit
 
 ### ... and successful Open Source projects
 
+[Arduino](https://arduino.github.io/arduino-cli/),
 [AutoKeras](https://autokeras.com/),
 [BFE](https://www.bfe-networks.net/),
 [Crystal](https://crystal-lang.org/reference/),
@@ -170,7 +181,7 @@ For other installation methods, configuration options, and a demo, visit
 [OpenFaaS](https://docs.openfaas.com/),
 [Pi-Hole](https://docs.pi-hole.net/),
 [Pydantic](https://pydantic-docs.helpmanual.io/),
-[Renovatebot](https://docs.renovatebot.com/),
+[Renovate](https://docs.renovatebot.com/),
 [Traefik](https://docs.traefik.io/),
 [Vapor](https://docs.vapor.codes/),
 [ZeroNet](https://zeronet.io/docs/),

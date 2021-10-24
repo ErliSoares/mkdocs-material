@@ -26,7 +26,7 @@
 <html lang="{{ lang.t('language') }}" class="no-js">
   <head>
 
-    <!-- Metatags -->
+    <!-- Meta tags -->
     {% block site_meta %}
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -78,7 +78,7 @@
       {% endif %}
     {% endblock %}
 
-    <!-- Theme-related stylesheets -->
+    <!-- Theme-related style sheets -->
     {% block styles %}
       <link rel="stylesheet" href="{{ 'assets/stylesheets/main.css' | url }}" />
 
@@ -136,7 +136,7 @@
       />
     {% endif %}
 
-    <!-- Custom stylesheets -->
+    <!-- Custom style sheets -->
     {% for path in config["extra_css"] %}
       <link rel="stylesheet" href="{{ path | url }}" />
     {% endfor %}
@@ -233,10 +233,12 @@
       <!-- Hero teaser -->
       {% block hero %}{% endblock %}
 
-      <!-- Navigation tabs -->
+      <!-- Navigation tabs (collapsing) -->
       {% block tabs %}
-        {% if "navigation.tabs" in features %}
-          {% include "partials/tabs.html" %}
+        {% if not "navigation.tabs.sticky" in features %}
+          {% if "navigation.tabs" in features %}
+            {% include "partials/tabs.html" %}
+          {% endif %}
         {% endif %}
       {% endblock %}
 
